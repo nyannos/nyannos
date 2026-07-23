@@ -4188,9 +4188,9 @@ local v466
 local ui_loaded = false
 local success, result = pcall(function()
     return CreateAnimeModUILibrary():MakeWindow({
-        Title = "nyann os",
+        Title = "nyann os [Version 3]",
         SubTitle = "by real nyan",
-        SaveFolder = "AnimeModHub.lua"
+        SaveFolder = "nyann os.lua"
     })
 end)
 
@@ -4270,19 +4270,19 @@ l_ImageButton_0.MouseButton1Click:Connect(function()
         v466:Minimize(true)
     end
 end)
-local v484 = v466:MakeTab({"Thông Tin | Info","rbxassetid://116828114235759"})
-local v485 = v466:MakeTab({"Farming","rbxassetid://116828114235759"})
-local v486 = v466:MakeTab({"Auto Fishing","rbxassetid://116828114235759"})
-local v487 = v466:MakeTab({"Quest | Items","rbxassetid://116828114235759"})
-local v488 = v466:MakeTab({"Volcano Dojo","rbxassetid://116828114235759"})
-local v489 = v466:MakeTab({"Sea Event","rbxassetid://116828114235759"})
-local v490 = v466:MakeTab({"Race V4","rbxassetid://116828114235759"})
-local v491 = v466:MakeTab({"Raid Fruits","rbxassetid://116828114235759"})
-local v492 = v466:MakeTab({"Fruits | Check Stock","rbxassetid://116828114235759"})
-local v493 = v466:MakeTab({"Teleport","rbxassetid://116828114235759"})
-local v494 = v466:MakeTab({"PvP,Player","rbxassetid://116828114235759"})
-local v495 = v466:MakeTab({"Shop","rbxassetid://116828114235759"})
-local v496 = v466:MakeTab({"Settings","rbxassetid://116828114235759"})
+local v484 = v466:MakeTab({"Thông Tin | Info","rbxassetid://94678517792779"})
+local v485 = v466:MakeTab({"Farming","rbxassetid://94678517792779"})
+local v486 = v466:MakeTab({"Auto Fishing","rbxassetid://94678517792779"})
+local v487 = v466:MakeTab({"Quest | Items","rbxassetid://94678517792779"})
+local v488 = v466:MakeTab({"Volcano Dojo","rbxassetid://94678517792779"})
+local v489 = v466:MakeTab({"Sea Event","rbxassetid://94678517792779"})
+local v490 = v466:MakeTab({"Race V4","rbxassetid://94678517792779"})
+local v491 = v466:MakeTab({"Raid Fruits","rbxassetid://94678517792779"})
+local v492 = v466:MakeTab({"Fruits | Check Stock","rbxassetid://94678517792779"})
+local v493 = v466:MakeTab({"Teleport","rbxassetid://94678517792779"})
+local v494 = v466:MakeTab({"PvP,Player","rbxassetid://94678517792779"})
+local v495 = v466:MakeTab({"Shop","rbxassetid://94678517792779"})
+local v496 = v466:MakeTab({"Settings","rbxassetid://94678517792779"})
 v484:AddDiscordInvite({
     Name = "Tham Gia Discord",
     Description = "Link Sever Discord",
