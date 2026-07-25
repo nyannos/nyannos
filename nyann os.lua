@@ -1317,7 +1317,7 @@ end
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Library/refs/heads/main/redz-V5-remake/main.luau"))()
 local Window = redzlib:MakeWindow({
     Title = "nyann os",
-    SubTitle = "by real_nyann",
+    SubTitle = "by real_@nyann",
     SaveFolder = "nyannnaiget.json"
 })
 
