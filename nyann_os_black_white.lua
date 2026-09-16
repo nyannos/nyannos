@@ -634,7 +634,7 @@ sea3 = (game.PlaceId == 7449423635 or game.PlaceId == 100117331123089)
 
 local Settings = {
     ["Tween Speed"] = 1.5, -- bay (duration = distance/(100*speed))
-    ["Bypass Teleport"] = true,
+    ["Bypass Teleport"] = false,
     ["Up Y"] = false,
     ["Up Y When Low Health"] = false,
     ["Same Y"] = false
@@ -1390,7 +1390,7 @@ Library.Scheme = {
 }
 
 local RealWindow = Library:CreateWindow({
-    Title = "nyann os",
+    Title = "nyann os by real_@nyannnokonoko",
     Footer = "by real_@nyann",
     Icon = 94678517792779,
     NotifySide = "Right",
@@ -1631,7 +1631,7 @@ local Tabs = {
 
     Main = Window:MakeTab({
         Title = "Main",
-        Icon = "home"
+        Icon = "rbxassetid://10709769508"
     }),
 
     Font = Window:MakeTab({
@@ -1696,7 +1696,7 @@ local Tabs = {
 
     Misc = Window:MakeTab({
         Title = "Miscellaneous",
-        Icon = "more-horizontal"
+        Icon = "settings-2"
     })
 }
 
@@ -2013,7 +2013,7 @@ local RFSubmarineWorkerSpeak = replicated.Modules.Net["RF/SubmarineWorkerSpeak"]
 WeaponDropdown = Tabs.Main:AddDropdown({
     Name = "Select Weapon",
     Options = {"Melee","Sword","Blox Fruit","Gun"},
-    Default = "Melee",
+    Default = "nil",
     Callback = function(Value)
     _G.ChooseWP = Value
 end})
