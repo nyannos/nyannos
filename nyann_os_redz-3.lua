@@ -1604,7 +1604,7 @@ local Tabs = {
 	Main = Window:MakeTab({ Title = "Main", Icon = "box" }),
 	Font = Window:MakeTab({ Title = "Font", Icon = "type" }),
 	Settings = Window:MakeTab({ Title = "Setting", Icon = "settings" }),
-	Fish = Window:MakeTab({ Title = "Fishing", Icon = "rbxassetid://8826268749"}),
+	Fish = Window:MakeTab({ Title = "Fishing", Icon = "fish"}),
 	Quests = Window:MakeTab({ Title = "Quest And Item", Icon = "scroll" }),
 	SeaEvent = Window:MakeTab({ Title = "Sea Event", Icon = "waves" }),
 	Race = Window:MakeTab({ Title = "Mirage And Race", Icon = "moon" }),
